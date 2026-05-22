@@ -1,17 +1,77 @@
 {
-  "name": "logistics-platform",
-  "version": "0.1.0",
+  "name": "fleetwatch-logistics",
+  "version": "1.0.0",
   "private": true,
+  "description": "Fleet intelligence platform — real-time fleet tracking, vehicle telemetry, driver management, route optimization, warehouse logistics, dispatch coordination.",
+  "keywords": [
+    "fleet-management",
+    "logistics",
+    "telemetry",
+    "route-optimization",
+    "real-time-tracking",
+    "dispatch",
+    "warehouse-management",
+    "nextjs"
+  ],
+  "homepage": "https://fleetwatch.dev",
+  "bugs": {
+    "url": "https://github.com/fleetwatch/logistics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fleetwatch/logistics.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "FLEETWATCH",
+    "email": "dev@fleetwatch.dev",
+    "url": "https://fleetwatch.dev"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4005",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start -p 4005",
+    "lint": "eslint src/ --ext .ts,.tsx",
+    "lint:fix": "eslint src/ --ext .ts,.tsx --fix",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf .next out node_modules/.cache",
+    "analyze": "ANALYZE=true next build",
+    "docker:build": "docker build -t fleetwatch-logistics .",
+    "docker:run": "docker run -p 4005:4005 fleetwatch-logistics",
+    "preview": "next start -p 4005",
+    "check": "npm run typecheck && npm run lint && npm run build"
   },
   "dependencies": {
     "next": "16.2.6",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "framer-motion": "^12",
+    "lucide-react": "^0.400",
+    "class-variance-authority": "^0.7",
+    "clsx": "^2.1",
+    "tailwind-merge": "^3",
+    "tailwindcss-animate": "^1",
+    "zod": "^3",
+    "@radix-ui/react-slot": "^1",
+    "@radix-ui/react-dialog": "^1",
+    "@radix-ui/react-dropdown-menu": "^1",
+    "@radix-ui/react-select": "^1",
+    "@radix-ui/react-tabs": "^1",
+    "@radix-ui/react-avatar": "^1",
+    "@radix-ui/react-toast": "^1",
+    "@radix-ui/react-label": "^1",
+    "@radix-ui/react-separator": "^1",
+    "@radix-ui/react-popover": "^1",
+    "@radix-ui/react-tooltip": "^1",
+    "@radix-ui/react-scroll-area": "^1",
+    "@radix-ui/react-switch": "^1",
+    "@radix-ui/react-checkbox": "^1",
+    "@radix-ui/react-progress": "^1",
+    "@radix-ui/react-alert-dialog": "^1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

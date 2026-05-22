@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <rect width="1200" height="675" fill="#0a0f0e"/>
+  <rect x="0" y="0" width="1200" height="675" fill="url(#grid)" opacity="0.04"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#14b8a6" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="area-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="784" height="320" rx="6" fill="#111817" stroke="#1e2b28" stroke-width="1"/>
+  <rect x="808" y="12" width="380" height="152" rx="6" fill="#111817" stroke="#1e2b28" stroke-width="1"/>
+  <rect x="808" y="176" width="380" height="156" rx="6" fill="#111817" stroke="#1e2b28" stroke-width="1"/>
+  <rect x="12" y="344" width="380" height="160" rx="6" fill="#111817" stroke="#1e2b28" stroke-width="1"/>
+  <rect x="404" y="344" width="380" height="160" rx="6" fill="#111817" stroke="#1e2b28" stroke-width="1"/>
+  <rect x="808" y="344" width="380" height="160" rx="6" fill="#111817" stroke="#1e2b28" stroke-width="1"/>
+  <rect x="12" y="516" width="1176" height="147" rx="6" fill="#111817" stroke="#1e2b28" stroke-width="1"/>
+  <rect x="24" y="28" width="120" height="16" rx="3" fill="#14b8a6" opacity="0.8"/>
+  <rect x="820" y="24" width="100" height="16" rx="3" fill="#14b8a6" opacity="0.8"/>
+  <rect x="820" y="188" width="80" height="16" rx="3" fill="#14b8a6" opacity="0.8"/>
+  <rect x="24" y="356" width="100" height="16" rx="3" fill="#14b8a6" opacity="0.8"/>
+  <rect x="416" y="356" width="120" height="16" rx="3" fill="#14b8a6" opacity="0.8"/>
+  <rect x="820" y="356" width="80" height="16" rx="3" fill="#14b8a6" opacity="0.8"/>
+  <rect x="24" y="528" width="140" height="16" rx="3" fill="#14b8a6" opacity="0.8"/>
+  <polyline points="48,300 120,280 200,260 280,240 360,220 440,230 520,200 600,180 680,190 760,160" stroke="#14b8a6" stroke-width="2" fill="none"/>
+  <path d="M 48 300 L 120 280 L 200 260 L 280 240 L 360 220 L 440 230 L 520 200 L 600 180 L 680 190 L 760 160 L 760 320 L 48 320 Z" fill="url(#area-fill)"/>
+  <circle cx="48" cy="300" r="3" fill="#14b8a6"/>
+  <circle cx="760" cy="160" r="4" fill="#14b8a6"/>
+  <rect x="60" y="150" width="60" height="170" rx="2" fill="#14b8a6" opacity="0.3"/>
+  <rect x="140" y="180" width="60" height="140" rx="2" fill="#14b8a6" opacity="0.5"/>
+  <rect x="220" y="130" width="60" height="190" rx="2" fill="#14b8a6" opacity="0.4"/>
+  <rect x="300" y="160" width="60" height="160" rx="2" fill="#14b8a6" opacity="0.6"/>
+  <rect x="380" y="140" width="60" height="180" rx="2" fill="#22c55e" opacity="0.4"/>
+  <rect x="460" y="170" width="60" height="150" rx="2" fill="#22c55e" opacity="0.5"/>
+  <rect x="540" y="120" width="60" height="200" rx="2" fill="#14b8a6" opacity="0.5"/>
+  <rect x="620" y="90" width="60" height="230" rx="2" fill="#14b8a6" opacity="0.6"/>
+  <rect x="700" y="110" width="60" height="210" rx="2" fill="#22c55e" opacity="0.5"/>
+  <rect x="24" y="132" width="12" height="12" rx="2" fill="#14b8a6" opacity="0.8"/>
+  <rect x="24" y="148" width="12" height="12" rx="2" fill="#22c55e" opacity="0.8"/>
+  <text x="44" y="141" fill="#94a3b8" font-family="Inter, sans-serif" font-size="10" opacity="0.7">Fleet Telemetry</text>
+  <text x="44" y="157" fill="#94a3b8" font-family="Inter, sans-serif" font-size="10" opacity="0.7">Deliveries</text>
+  <rect x="820" y="44" width="200" height="8" rx="4" fill="#1a2220"/>
+  <rect x="820" y="60" width="180" height="8" rx="4" fill="#1a2220"/>
+  <rect x="820" y="76" width="220" height="8" rx="4" fill="#1a2220"/>
+  <rect x="820" y="92" width="160" height="8" rx="4" fill="#1a2220"/>
+  <rect x="820" y="108" width="240" height="8" rx="4" fill="#1a2220"/>
+  <rect x="1040" y="44" width="60" height="8" rx="4" fill="#1a2220"/>
+  <rect x="1040" y="60" width="48" height="8" rx="4" fill="#1a2220"/>
+  <rect x="1040" y="76" width="72" height="8" rx="4" fill="#1a2220"/>
+  <rect x="1040" y="92" width="36" height="8" rx="4" fill="#1a2220"/>
+  <rect x="1040" y="108" width="56" height="8" rx="4" fill="#1a2220"/>
+  <rect x="0" y="0" width="1200" height="1" fill="#14b8a6" opacity="0.3"/>
+  <text x="24" y="660" fill="#64748b" font-family="JetBrains Mono, monospace" font-size="10">FLEETWATCH ANALYTICS v1.0.0 — 12:34:56 UTC</text>
+</svg>
